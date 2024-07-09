@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speaker Recognition - Login</title>
+</head>
+<body>
+    <h1>Login - Recognize Speaker</h1>
+    <form action="/login" method="post" enctype="multipart/form-data">
+        <label for="test_speaker">Speaker Name:</label>
+        <input type="text" name="test_speaker" id="test_speaker" required><br><br>
+        <input type="file" name="file" accept="audio/wav" required><br><br>
+        <input type="submit" value="Recognize">
+    </form>
+</body>
+</html>

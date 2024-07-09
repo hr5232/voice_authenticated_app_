@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speaker Recognition - Sign In</title>
+</head>
+<body>
+    <h1>Sign In - Upload and Train Model</h1>
+    <form action="/signin" method="post" enctype="multipart/form-data">
+        <label for="speaker">Speaker Name:</label>
+        <input type="text" name="speaker" id="speaker" required><br><br>
+        <input type="file" name="files" accept="audio/wav" multiple required><br><br>
+        <input type="submit" value="Upload and Train">
+    </form>
+</body>
+</html>
